@@ -3,11 +3,11 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber1 + ".png";
 var randomDiceImage2 = "dice" + randomNumber2 + ".png";
 
-var dice1 = document.getElementsByClassName("img1")[0];
+var dice1 = document.querySelectorAll("img")[0];
 
 dice1.setAttribute("src", "./images/" + randomDiceImage);
 
-var dice2 = document.getElementsByClassName("img2")[0];
+var dice2 = document.querySelectorAll("img")[1];
 dice2.setAttribute("src", "./images/" + randomDiceImage2);
 
 heading = document.querySelector("h1");
