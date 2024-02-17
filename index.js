@@ -12,11 +12,11 @@ dice2.setAttribute("src", "./images/" + randomDiceImage2);
 
 heading = document.querySelector("h1");
 if (randomNumber1 > randomNumber2) {
-  heading.innerText = "Player 1 Wins";
+  heading.innerText = "🏆Player 1 Wins";
 }
 
 if (randomNumber1 < randomNumber2) {
-  heading.innerText = "Player 2 Wins";
+  heading.innerText = "Player 2 Wins🏆";
 }
 
 if (randomNumber1 === randomNumber2) {
